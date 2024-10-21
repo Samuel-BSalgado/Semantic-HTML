@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página para aplicar a un trabajo de software"></meta>
+  <title>Empresa Imaginaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 tabindex="0">Aplicaci&oacute;n de Trabajo en Empresa Imaginaria</h1>
+    <p tabindex="0">Aplica al puesto de trabajo enviando tu informaci&oacute;n en el formulario</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Ubicaciones</a></li>
+      <li id="midlle-li"><a href="#">Nosotros</a></li>
+      <li><a href="#">Preguntas frecuentes</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <h2 aria-label="Tabla con informaci&oacute;n de los puestos disponibles, presiona la tecla 'T' para acceder a la tabla." tabindex="0">Informaci&oacute;n de puestos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Puestos</th>
+            <th scope="col">Ubicaciones</th>
+            <th scope="col">Salarios</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Desarrollador Frontend</td>
+            <td>Remoto</td>
+            <td>$50,000 USD/año</td>
+          </tr>
+          <tr>
+            <td>Desarrollador Backend</td>
+            <td>Presencial - CDMX</td>
+            <td>$60,000 USD/año</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+    <section>
+      <h2 tabindex="0">Ambiente laboral</h2>
+      <div class="image-container">
+        <img tabindex="0" src="images/equipo-software.jpg" alt="Equipo de trabajo colaborando con macbuks">
+        <img tabindex="0" src="images/laptops.jpg" alt="Laptops Windows proporcionadas por la empresa">
+        <img tabindex="0" src="images/equipo2-desarrollo-software.jpg" alt="Equipo de trabajo colaborando con computadoras de escritorio">
+      </div>
+      <p tabindex="0" id="texto-ambiente-laboral">En Empresa Imaginaria nos caracteriza nuestros altos est&aacute;ndares y calidad de ambiente laboral.</p>
+    </section>
+
+    <article>
+      <h2 tabindex="0">Formulario de Aplicaci&oacute;n</h2>
+      <form id="formulario" method="POST">
+        <section>
+          <h3 aria-label="A continuaci&oacute;n, ingresa los datos personales que se te piden" tabindex="0">Datos Personales</h3>
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" name="nombre" required><br><br>
+
+          <label for="email">Correo Electr&oacute;nico:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="puesto">Puesto deseado:</label>
+          <input type="text" id="puesto" name="puesto" required><br><br>
+
+          <label for="telefono">N&uacute;mero de Tel&eacute;fono:</label>
+          <input type="tel" id="telefono" name="telefono" required><br><br>
+        </section>
+
+        <button type="submit">Enviar Aplicaci&oacute;n</button>
+      </form>
+    </article>
+  </main>
+
+  <aside>
+    <h3 tabindex="0">Recomendaciones</h3>
+    <p tabindex="0">Verifica la informaci&oacute;n proporcionada antes de enviar el formulario.</p>
+    <p><a href="#">Visita nuestro sitio web para m&aacute;s detalles sobre la empresa</a></p>
+  </aside>
+
+  <footer id="contacto">
+    <p tabindex="0">Contacto: <a href="#">empresa@imaginaria.com</a></p>
+    <p tabindex="0">Tel&eacute;fono: +52 123 456 7890</p>
+    <p tabindex="0">Direcci&oacute;n: Calle Falsa #123, Zona Urbana. CDMX, M&eacute;xico</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
