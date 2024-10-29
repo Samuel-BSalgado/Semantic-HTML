@@ -4,28 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Página para aplicar a un trabajo de software"></meta>
-  <title>Empresa Imaginaria</title>
+  <title>Silvia Enterprice</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>Aplicaci&oacute;n de Trabajo en Empresa Imaginaria</h1>
+    <h1>Aplicaci&oacute;n de Trabajo en Silvia Enterprice</h1>
     <p>Aplica al puesto de trabajo enviando tu informaci&oacute;n en el formulario</p>
   </header>
 
   <nav>
     <ul>
-      <li><a href="#">Ubicaciones</a></li>
+      <li id="first-li"><a href="#">Ubicaciones</a></li>
       <li id="midlle-li"><a href="#">Nosotros</a></li>
-      <li><a href="#">Preguntas frecuentes</a></li>
+      <li id="last-li"><a href="#">Preguntas frecuentes</a></li>
     </ul>
   </nav>
 
   <main>
     <article>
-      <h2 aria-label="Tabla con informaci&oacute;n de los puestos disponibles, presiona la tecla 'T' para acceder a la tabla.">Informaci&oacute;n de puestos</h2>
-      <table>
+      <h2>Informaci&oacute;n de puestos</h2>
+      <table aria-label="Tabla de puestos de trabajo disponibles y sus detalles">
         <thead>
           <tr>
             <th scope="col">Puestos</th>
@@ -48,21 +48,21 @@
       </table>
     </article>
 
-    <section>
+    <section id="images-section">
       <h2>Ambiente laboral</h2>
       <div class="image-container">
         <img src="images/equipo-software.webp" alt="Equipo de trabajo colaborando con macbuks">
         <img src="images/laptops.webp" alt="Laptops Windows proporcionadas por la empresa">
         <img src="images/equipo2-desarrollo-software.webp" alt="Equipo de trabajo colaborando con computadoras de escritorio">
       </div>
-      <p id="texto-ambiente-laboral">En Empresa Imaginaria nos caracteriza nuestros altos est&aacute;ndares y calidad de ambiente laboral.</p>
+      <p id="texto-ambiente-laboral">En Silvia Enterprice nos caracteriza nuestros altos est&aacute;ndares y calidad de ambiente laboral.</p>
     </section>
 
     <article>
       <h2>Formulario de Aplicaci&oacute;n</h2>
       <form id="formulario" method="POST">
         <section>
-          <h3 aria-label="A continuaci&oacute;n, ingresa los datos personales que se te piden" >Datos Personales</h3>
+          <h3>Datos Personales</h3>
           <label for="nombre">Nombre Completo:</label>
           <br>
           <input type="text" id="nombre" name="nombre" required><br><br>
@@ -85,16 +85,10 @@
     </article>
   </main>
 
-  <aside>
-    <h3>Recomendaciones</h3>
-    <p>Verifica la informaci&oacute;n proporcionada antes de enviar el formulario.</p>
-    <p><a href="#">Visita nuestro sitio web para m&aacute;s detalles sobre la empresa</a></p>
-  </aside>
-
   <footer id="contacto">
-    <p>Contacto: <a href="#">empresa@imaginaria.com</a></p>
-    <p>Tel&eacute;fono: +52 123 456 7890</p>
-    <p>Direcci&oacute;n: Calle Falsa #123, Zona Urbana. CDMX, M&eacute;xico</p>
+    <p>Contacto: <a href="#">silvia@enterprice.com</a></p>
+    <p>Tel&eacute;fono: +52 312 456 7890</p>
+    <p>Direcci&oacute;n: Avenida Universidad #33, Las V&iacute;boras, C.P. 28040, Colima, Colima, M&eacute;xico</p>
   </footer>
 
   <script src="main.js"></script>
