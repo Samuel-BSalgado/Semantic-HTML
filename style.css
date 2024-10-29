@@ -82,6 +82,10 @@ article {
   border-left: 4px solid #1a73e8;
 }
 
+input {
+  padding: 0.3%;
+}
+
 select {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
