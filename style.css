@@ -153,6 +153,7 @@ section img {
 
   section img {
     max-width: 65%;
+    height: auto;
     margin-bottom: 2.5%;
   }
 }
